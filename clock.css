@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+}
+#clock{
+    font-size: 6.5rem;
+    background-image: linear-gradient(to right, rgb(120, 22, 22),rgb(0, 30, 255),rgb(40, 214, 40));
+    background-clip:text;
+    color: transparent;
+    
+}
+#dd{
+    font-size: 6.5rem;
+    background-image: linear-gradient(to left, rgb(120, 22, 22),rgb(0, 30, 255),rgb(40, 214, 40));
+    background-clip: text;
+    color: transparent;
+}
